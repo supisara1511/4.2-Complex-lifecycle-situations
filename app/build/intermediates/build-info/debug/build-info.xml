@@ -5,9 +5,8 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.4.2"
-    timestamp="1569468831773"
+    timestamp="1569469367144"
     token="-5715800402513894739"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -19,14 +18,10 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="35" />
+        duration="0" />
     <task
         name="verifier"
-        duration="12" />
-
-    <artifact
-        location="/Users/snack/Desktop/DessertClickerLogs/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
+        duration="0" />
 
     <build
         build-mode="FULL"
@@ -74,12 +69,16 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1569468831773"
+        ir-eligibility="IMPLEMENTED_INTERFACES_CHANGE"
+        timestamp="1569469260241"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/snack/Desktop/DessertClickerLogs/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1569469367144"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
